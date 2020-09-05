@@ -1,0 +1,52 @@
+body{
+background-color: white;;
+}
+
+.container {
+    width: 50%;
+    max-width: 120px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .row {
+    display: flex;
+  }
+
+  .col {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
+    border: #000 1px solid;
+    height: 20px;
+  }
+
+  .col:hover {
+    background-color: #EBEBEB;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .col-3 {
+    flex-basis: 25%;
+  }
+
+  h1 {
+    text-align: center;
+    margin: 20px 0;
+  }
+
+  #message{
+  text-align: center;
+  padding: 10px;
+  }
+
+  .button {
+    text-align: center;
+    margin: 20px 0;
+  }
+
+  button {
+      font-size: 20px;
+      background-color: green;
+  }
